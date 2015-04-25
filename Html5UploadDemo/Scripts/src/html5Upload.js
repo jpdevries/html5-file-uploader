@@ -1,7 +1,5 @@
 ﻿/*jslint unparam: true, browser: true, devel: true */
-/*global define*/
-
-define(function () {
+var html5Upload = (function(){
     'use strict';
 
     var module = {},
@@ -249,4 +247,4 @@ define(function () {
     };
 
     return module;
-});
+}());
